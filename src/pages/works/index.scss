@@ -1,0 +1,50 @@
+.project {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 24px;
+  box-shadow: 0 2px 4px grey;
+  padding: 22px;
+  box-sizing: border-box;
+  .img {
+    width: min(20%, 10em);
+    height: fit-content;
+    padding: 18px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .write_up {
+    width: min(40em, 78vw);
+    padding: 24px;
+    box-sizing: border-box;
+
+    * {
+      margin: 0;
+    }
+    h4 {
+      margin: 12px 0 !important;
+      padding-bottom: 4px;
+     
+    }
+    h4~h4{
+        border-bottom: 1px solid black;
+        width: fit-content;
+    }
+    ul {
+      padding: 0;
+      text-align: left;
+      font-family: Noto Sans JP;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: left;
+
+      li {
+        line-height: 18px;
+      }
+    }
+  }
+}
