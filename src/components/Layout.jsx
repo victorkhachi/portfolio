@@ -54,7 +54,7 @@ function Layout(props) {
               </a>
             </li>
           ))}
-          <a style={{marginTop:'24px'}}  href={Resume} download={true}> Download Resume</a>
+          <a style={{marginTop:'14px'}}  href={Resume} download={true}> Download Resume</a>
         </ul>
       </div>}
       <div className="content">{props.children}</div>

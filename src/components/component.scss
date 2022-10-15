@@ -129,8 +129,34 @@
 
         .details{
             padding: 1em;
+            box-sizing: border-box;
             h1{
-                margin: 12px 0;
+                margin: 6px 0;
+                font-size: 2em;
+                line-height: unset;
+            }
+
+            h3{
+              margin: 6px 0;
+              font-size: 1.5em;
+              line-height: 1.5em;
+            }
+
+            a {
+              font-family: Noto Sans JP;
+              font-size: 1rem;
+              font-weight: 400;
+              line-height: 20px;
+              letter-spacing: 0em;
+              text-align: left;
+              text-transform: capitalize;
+              color: white;
+              text-decoration: none;
+              text-shadow: 2px 2px grey;
+              display: flex;
+              gap: 8px;
+              align-items: center;
+              
             }
         }
 
@@ -138,6 +164,10 @@
             position: fixed;
     height: 37px !important;
     background: inherit;
+
+    a{
+      font-size: 12px !important;
+    }
         }
         .content{
             width: 100vw;
@@ -163,11 +193,18 @@
     .home{
         flex-direction: column;
         height: fit-content;
+        padding: 0 16px;
         a{
             height: unset;
             text-align: left !important;
            p{
              width: 100%;
+             font-size: 1em;
+             margin-top: 0;
+           }
+           h2{
+            margin-bottom: 0em;
+            font-size: 1.3em;
            }
         }
     }
