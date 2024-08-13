@@ -3,6 +3,7 @@ import Inch from '../../assets/inch.png'
 import Tookuai from '../../assets/tlogo.png'
 import Nftng from '../../assets/logo.png'
 import Nftytribe from '../../assets/n-logo.png'
+import Ginyverse from '../../assets/ginyverse.jpg'
 import './index.scss'
 
 
@@ -43,7 +44,7 @@ function Works(props) {
             </section> 
 
             <section>
-                <h3>Works and Projects</h3>
+                <h3>Works and Projects  <span style={{fontWeight:"lighter",textTransform:"lowercase",opacity:"0.7"}}>(Click on the title to access link)</span></h3>
                 <p>Here are some of Kachi's Notable works</p>
                 <div  className="project">
                     <div style={{background:'black'}} className='img'>
@@ -109,11 +110,11 @@ function Works(props) {
                     </div>
                 </div>
                 <div className="project">
-                    <div  className='img'>
+                    <div className='img'>
                         <img src={Nftytribe} alt="" />
                     </div>
                     <div className="write_up">
-                    <h4><a href="https://nftytribe.io"> NFtytribe</a> </h4>
+                        <h4><a href="https://nftytribe.io"> NFtytribe</a> </h4>
                         <p>NFTng is a platform for minting,buying, selling and staking NFTs . </p>
                         <ul>
                             <h4>Contribution</h4>
@@ -125,6 +126,25 @@ function Works(props) {
                             <li>web3.js</li>
                             <li>Redux</li>
                             {/* <li>paystack payment API</li> */}
+                        </ul>
+                    </div>
+                </div> 
+                <div className="project">
+                    <div className='img'>
+                        <img src={Ginyverse} alt="" />
+                    </div>
+                    <div className="write_up">
+                        <h4><a href="https://app.ginyverse.com"> Ginyverse</a> </h4>
+                        <p>A Peer to Peer Errand platform that allow users send errand to a specific location . </p>
+                        <ul>
+                            <h4>Contribution</h4>
+                            <li>Founder</li>
+                            <li>Implement UI design and functionalities</li>
+                            <h4>Tools</h4>
+                            <li>React.js</li>
+                            <li>Google Maps</li>
+                            <li>Redux</li>
+                            <li>Paystack payment API</li>
                         </ul>
                     </div>
                 </div>

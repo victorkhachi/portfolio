@@ -14,8 +14,8 @@ function Layout(props) {
     },
     {
       icon: <FaTwitter />,
-      name: "@the_biafran",
-      link: "https://twitter.com/the_biafran",
+      name: "@CyberGinies",
+      link: "https://twitter.com/cyberGinies",
     },
     {
       icon: <FaLinkedin />,

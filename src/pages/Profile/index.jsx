@@ -115,6 +115,7 @@ const Profile = () => {
             {" "}
             <b>Polygon BlockChain Bootcamp </b>- 2022
           </li>
+       
         </ol>
       </section>
       <section>
@@ -151,6 +152,13 @@ const Profile = () => {
           <li>
             {" "}
             <b>Solidity :</b> Smart Contract Programming language
+          </li>
+          <li>
+            {" "}
+            <b>Rascal Mpl :</b> Language design workbench
+          </li><li>
+            {" "}
+            <b>Express JS :</b> Backend Development Framework
           </li>
         </ol>
       </section>
